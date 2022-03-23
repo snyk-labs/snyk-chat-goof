@@ -16,7 +16,7 @@
           </v-list-item-avatar>
           <v-list-item-content>
             <v-list-item-title v-text="message.userName"></v-list-item-title>
-            <v-list-item-subtitle v-html="markit(message.message)"></v-list-item-subtitle>
+            <v-list-item-subtitle v-html="marked(message.message)"></v-list-item-subtitle>
           </v-list-item-content>
         </template>
         <template v-else>
@@ -47,9 +47,7 @@ export default {
       if (message.type == "LEAVE") return message.userName + " left!";
       return "uknown message type";
     },
-    markit(message) {
-      return marked(message);
-    }
+    marked: marked
   }
 };
 </script>
