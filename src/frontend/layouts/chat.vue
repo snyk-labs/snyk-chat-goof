@@ -54,7 +54,7 @@
       color="indigo"
       app
     >
-      <span class="white--text">&copy; 2019 <a
+      <span class="white--text">&copy; 2022 Snyk - based off the excellent work of <a
           href="http://kojotdev.com"
           target="_blank"
           class="white--text"
