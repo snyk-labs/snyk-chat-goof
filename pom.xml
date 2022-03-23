@@ -11,7 +11,7 @@
     <groupId>io.snyk.snyklabs</groupId>
     <artifactId>multiroom-chat-goof</artifactId>
     <version>0.0.1-SNAPSHOT</version>
-    <name>multiroom-chat-goof</name>
+    <name>snyk-chat-goof</name>
     <description>vulnerable chat app for demonstration</description>
 
     <properties>

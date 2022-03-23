@@ -1,4 +1,4 @@
-# vue-multiroom-chat
+# snyk-chat-goof
 
 > Vue Multiroom Chat with Nuxt, Vuex and WebSocket
 
