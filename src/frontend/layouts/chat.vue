@@ -44,7 +44,6 @@
         <v-layout
           align-top
           justify-center
-          mt-12
         >
           <nuxt />
         </v-layout>
@@ -78,6 +77,5 @@ export default {
   }
 };
 </script>
-
 <style>
 </style>

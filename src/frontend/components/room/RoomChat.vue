@@ -45,11 +45,11 @@
             </v-toolbar>
           </v-card>
         </div>
-        <div class="content">
-          <chat-content></chat-content>
-        </div>
         <div class="footer">
           <chat-message-sender></chat-message-sender>
+        </div>
+        <div class="scroll">
+          <chat-content></chat-content>
         </div>
       </div>
     </div>
@@ -132,5 +132,15 @@ export default {
   flex-basis: 100%;
   flex-flow: column nowrap;
   justify-content: flex-end;
+}
+
+div.scroll {
+  background-color: rgb(255, 255, 255);
+  height: 530px;
+  overflow-x: hidden;
+  overflow-y: auto;
+  text-align: center;
+  display: flex;
+  flex-direction: column-reverse;
 }
 </style>
