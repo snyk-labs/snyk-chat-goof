@@ -20,6 +20,12 @@ import org.springframework.messaging.simp.SimpMessageHeaderAccessor;
 import org.springframework.messaging.simp.SimpMessageSendingOperations;
 import org.springframework.messaging.simp.annotation.SubscribeMapping;
 import org.springframework.stereotype.Controller;
+import org.springframework.web.bind.annotation.GetMapping;
+import org.springframework.web.bind.annotation.RequestParam;
+
+import javax.servlet.http.HttpServletResponse;
+
+import java.io.IOException;
 
 import static java.lang.String.format;
 
@@ -84,6 +90,13 @@ public class ChatController {
     public Message sendMessage(@DestinationVariable String roomId, Message message) {
         messagingTemplate.convertAndSend(format("/chat/%s/messages", roomId), message);
         return message;
+    }
+
+    @GetMapping("/hello")
+    public void hello(@RequestParam String user, HttpServletResponse response) throws IOException {
+        response.setContentType("text/html");
+        response.getWriter().write("<h1>Hello: " + user + "</h1>");
+        response.getWriter().flush();
     }
 
     public void handleUserDisconnection(String userName) {
