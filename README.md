@@ -44,7 +44,7 @@ Any changes you make to the frontend will trigger an automatic re-build of the f
 When you run `mvn clean install`, in addition to building the Java code, it performs the following for the frontend
 app:
 
-* builds the nuxt app
+* builds the nuxt app.
 * generates a static version of the nuxt app
 * copies the static frontend into `src/main/resources/public`
 
