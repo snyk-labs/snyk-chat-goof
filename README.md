@@ -71,7 +71,7 @@ Do the following to deploy to heroku using the cli too:
 ```
 heroku apps:create my-great-app
 heroku config:set BASE_URL=https://my-great-app.herokuapp.com
-git push heroku main
+git push heroku main.
 ```
 
 This will push the code to heroku and run the unified build process. Once complete, you can access the app at the name
