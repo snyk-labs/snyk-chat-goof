@@ -14,7 +14,7 @@ in any production environment.
 
 ![multiroom-chatspring-vue-websocket-live-example](http://kojotdev.com/wp-content/uploads/2019/09/multiroom-chat-live.gif)
 
-## Run - local, separated
+## Run - local, separated.
 
 Launch the backend with:
 
