@@ -25,7 +25,7 @@ mvn spring-boot:run
 
 The backend will launch on port `8080`
 
-Launch the frontend with:
+Launch the frontend with::
 
 ```
 cd src/frontend
