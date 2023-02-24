@@ -9,7 +9,7 @@ This project is based off the excellent work of [kojotdev](http://kojotdev.com).
 
 The project is organized in such a way that it can easily be run locally and be deployed for demonstration.
 
-**NOTE:** The project has known vulnerabilities in it for demonstration purposes. PLEASE do not attempt to use
+**NOTE:** The project has known vulnerabilities in it for demonstration purposes. PLEASE do not attempt to use.
 in any production environment.
 
 ![multiroom-chatspring-vue-websocket-live-example](http://kojotdev.com/wp-content/uploads/2019/09/multiroom-chat-live.gif)
