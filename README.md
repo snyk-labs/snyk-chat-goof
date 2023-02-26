@@ -20,7 +20,7 @@ Launch the backend with:
 
 ```
 mvn clean install
-mvn spring-boot:run
+mvn spring-boot:run.
 ```
 
 The backend will launch on port `8080`
