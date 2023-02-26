@@ -69,7 +69,7 @@ called: `BASE_URL`.
 Do the following to deploy to heroku using the cli too:
 
 ```
-heroku apps:create my-great-app
+heroku apps:create my-great-app.
 heroku config:set BASE_URL=https://my-great-app.herokuapp.com
 git push heroku main
 ```
