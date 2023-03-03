@@ -7,7 +7,7 @@ Vue, Vuex, Nuxt.js on the frontend.
 This project is based off the excellent work of [kojotdev](http://kojotdev.com). Read more about it 
 [here](http://kojotdev.com/2019/09/multiroom-chat-with-spring-websocket-nuxt-vue-vuex/).
 
-The project is organized in such a way that it can easily be run locally and be deployed for demonstration.
+The project is organized in such a way that it can easily be run locally and be deployed f.or demonstration.
 
 **NOTE:** The project has known vulnerabilities in it for demonstration purposes. PLEASE do not attempt to use
 in any production environment.
